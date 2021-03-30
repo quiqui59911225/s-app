@@ -1,0 +1,291 @@
+!SESSION 2021-03-29 14:38:06.717 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.5
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/iwao/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/iwao/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2021-03-29 14:39:33.438
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2021-03-29 14:39:34.667
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-29 14:39:34.667
+!MESSAGE COMMAND+SHIFT+T の競合が発生しました:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@81198ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2806fe58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-29 14:39:34.667
+!MESSAGE COMMAND+SHIFT+- の競合が発生しました:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@755c29b0,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,エディター分割の切り替え,
+		現在のアクティブなエディターを分割または結合します。,
+		Category(org.eclipse.ui.category.window,ウィンドウ,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@755c29b0,
+		[Parameter(Splitter.isHorizontal,向き,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-03-29 14:55:01.362
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:10.965
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:10.966
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@775d913[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1025)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:10.971
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:11.032
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:12.321
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:12.322
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@775d913[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1025)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:12.322
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.jface 2 0 2021-03-29 14:56:13.195
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-29 14:56:13.195
+!MESSAGE COMMAND+- の競合が発生しました:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@81c76c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7243397d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78556f0f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.630
+!MESSAGE Boot LS startup time from start to initialized: 2308ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.701
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qGHxZouDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.709
+!MESSAGE subscribing to classpath changes: sts4.classpath.qGHxZouD isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.713
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.718
+!MESSAGE subsribers = {sts4.classpath.qGHxZouD=クラスパス通知の送信(487)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.718
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.719
+!MESSAGE project test_hello_world ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.720
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.720
+!MESSAGE Preparing classpath changed notification test_hello_world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.721
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qGHxZouD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.721
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.726
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.727
+!MESSAGE buffering callback sts4.classpath.qGHxZouD test_hello_world false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.727
+!MESSAGE executing callback sts4.classpath.qGHxZouD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 14:56:14.768
+!MESSAGE executing callback sts4.classpath.qGHxZouD SUCCESS [終了しました]
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.168
+!MESSAGE Library not found in plugin: /lib/spotbugs-annotations-4.0.0-beta1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.170
+!MESSAGE Unable to find path for variable: FINDBUGS_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.170
+!MESSAGE Library not found in plugin: /lib/jsr305-3.0.1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.171
+!MESSAGE Unable to find path for variable: JSR305_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.172
+!MESSAGE Library not found in plugin: /lib/spotbugs-annotations-4.0.0-beta1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.172
+!MESSAGE Unable to find path for variable: FINDBUGS_ANNOTATIONS
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.173
+!MESSAGE Library not found in plugin: /lib/jsr305-3.0.1.jar
+
+!ENTRY com.github.spotbugs.plugin.eclipse 4 0 2021-03-29 15:05:01.173
+!MESSAGE Unable to find path for variable: JSR305_ANNOTATIONS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:20.513
+!MESSAGE Preparing classpath changed notification test_hello_world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:20.514
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:20.515
+!MESSAGE classpath=31 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:20.516
+!MESSAGE buffering callback sts4.classpath.qGHxZouD test_hello_world false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:20.516
+!MESSAGE executing callback sts4.classpath.qGHxZouD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:20.542
+!MESSAGE executing callback sts4.classpath.qGHxZouD SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:41.394
+!MESSAGE Preparing classpath changed notification test_hello_world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:41.395
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:41.396
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:41.397
+!MESSAGE buffering callback sts4.classpath.qGHxZouD test_hello_world false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:41.398
+!MESSAGE executing callback sts4.classpath.qGHxZouD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:12:41.402
+!MESSAGE executing callback sts4.classpath.qGHxZouD SUCCESS [終了しました]
+
+!ENTRY mergedoc.encoding 2 0 2021-03-29 15:14:48.501
+!MESSAGE リソース '/test_hello_world/src/test_hello_world/MainTest.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-03-29 15:14:48.502
+!MESSAGE リソース '/test_hello_world/src/test_hello_world/MainTest.java' が存在しません。
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:14:57.342
+!MESSAGE Preparing classpath changed notification test_hello_world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:14:57.343
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:14:57.344
+!MESSAGE classpath=31 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:14:57.345
+!MESSAGE buffering callback sts4.classpath.qGHxZouD test_hello_world false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:14:57.345
+!MESSAGE executing callback sts4.classpath.qGHxZouD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:14:57.367
+!MESSAGE executing callback sts4.classpath.qGHxZouD SUCCESS [終了しました]
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2021-03-29 15:28:45.470
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-29 15:30:15.866
+!MESSAGE ftp.jaist.ac.jp:443 failed to respond で https://ftp.jaist.ac.jp/pub/eclipse/releases/2021-03/202103171000/plugins/org.eclipse.jst.common.project.facet.core_1.10.0.v202101040919.jar.pack.gz への接続に失敗しました。0 の再試行を開始しました
+!STACK 0
+org.apache.http.NoHttpResponseException: ftp.jaist.ac.jp:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:44:31.457
+!MESSAGE Preparing classpath changed notification test_hello_world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:44:31.458
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:44:31.460
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:44:31.463
+!MESSAGE buffering callback sts4.classpath.qGHxZouD test_hello_world false 32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:44:31.463
+!MESSAGE executing callback sts4.classpath.qGHxZouD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 15:44:31.483
+!MESSAGE executing callback sts4.classpath.qGHxZouD SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 20:02:41.906
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qGHxZouD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 20:02:41.908
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qGHxZouD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 20:02:41.909
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-29 20:02:41.909
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qGHxZouD => OK
